@@ -1,0 +1,51 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/list/list",
+    "pages/index/index",
+    "pages/cate/cate",
+    "pages/profile/profile",
+    "pages/cart/cart"
+  ],
+  "window": {
+    "navigationBarTitleText": "里骆黄牛肉",
+    "navigationBarBackgroundColor": "#f3514f",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle":"dark"
+  },
+  "tabBar": {
+    "selectedColor": "#f3514f",
+    "color": "#666",
+    "backgroundColor": "#efefef",
+    "list": [
+      {
+        "text":"首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/tabbar/首页_home.png",
+        "selectedIconPath": "assets/tabbar/牛_cattle.png"
+      },
+      {
+        "text":"分类",
+        "pagePath": "pages/cate/cate",
+        "iconPath": "assets/tabbar/全部_all-application.png",
+        "selectedIconPath": "assets/tabbar/牛_cattle.png"
+      },
+      {
+        "text":"购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "assets/tabbar/购物车_shopping.png",
+        "selectedIconPath": "assets/tabbar/牛_cattle.png"
+      },
+      {
+        "text":"我的",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "assets/tabbar/我的_me.png",
+        "selectedIconPath": "assets/tabbar/牛_cattle.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
